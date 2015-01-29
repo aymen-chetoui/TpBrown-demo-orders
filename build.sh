@@ -5,6 +5,7 @@ echo $GO_PIPELINE_NAME build $GO_PIPELINE_LABEL triggered
 echo COMPILE..
 echo UNIT TEST...
 echo ${GO_PIPELINE_NAME}-${GO_PIPELINE_LABEL}-${GO_STAGE_COUNTER}>artifact.txt
+mkdir -p results
 if [ -z "$1" ]
 then
    cp -f fake-outputs/junit-pass.xml results/junit.xml
