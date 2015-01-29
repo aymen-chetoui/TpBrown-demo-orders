@@ -3,7 +3,7 @@ echo '(pseudo build script.  Pass any parameter to fail.)'
 rm -f results
 mkdir -p results/deployables
 mkdir -p results/reports
-artifact_name="deployables/${GO_PIPELINE_NAME}-${GO_PIPELINE_LABEL}.${GO_STAGE_COUNTER}.txt"
+artifact_name="results/deployables/${GO_PIPELINE_NAME}-${GO_PIPELINE_LABEL}.${GO_STAGE_COUNTER}.txt"
 echo $GO_PIPELINE_NAME build $GO_PIPELINE_LABEL triggered
 echo COMPILE..
 echo UNIT TEST...
