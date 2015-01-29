@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+   <testsuite name="orders-small-tests" errors="0" skipped="1" tests="3" failures="0" time="0.006" timestamp="2015-01-24T10:23:58">
+      <properties>
+         <property name="java.vendor" value="Sun Microsystems Inc." />
+         <property name="compiler.debug" value="on" />
+         <property name="project.jdk.classpath" value="jdk.classpath.1.6" />
+      </properties>
+      <testcase classname="orders-small-tests.foo" name="should do something foo" time="0.004"/>
+      <testcase classname="orders-small-tests.bar" name="should bar" time="0">
+         <skipped />
+      </testcase>
+      <testcase classname="orders-small-tests.baz" name="should baz" time="0.002">
+         <failure message="test failure">Assertion failed</failure>
+      </testcase>
+   </testsuite>
+</testsuites>
