@@ -10,8 +10,6 @@
       <testcase classname="orders-small-tests.bar" name="should bar" time="0">
          <skipped />
       </testcase>
-      <testcase classname="orders-small-tests.baz" name="should baz" time="0.002">
-         <failure message="test failure">Assertion failed</failure>
-      </testcase>
+      <testcase classname="orders-small-tests.baz" name="should baz" time="0.002" />
    </testsuite>
 </testsuites>
