@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 echo '(pseudo build script.  Pass any parameter to fail.)'
 rm -f results
 mkdir -p results/deployables
